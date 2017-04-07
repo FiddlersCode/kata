@@ -1,5 +1,8 @@
 def check(password)
   regex = /[A-Z]/
-  password =~ regex
-  true
+  if password =~ regex
+    true
+  else
+    false
+  end
 end
