@@ -1,5 +1,5 @@
 def check(password)
-  regex = /[A-Z]/
+  regex = /[A-Z][a-z]/
   if password =~ regex
     true
   else
