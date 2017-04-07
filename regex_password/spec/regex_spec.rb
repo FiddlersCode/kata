@@ -9,4 +9,7 @@ describe "regex" do
   it "checks whether an expression contains at least one lowercase character" do
     expect(check("Cambridge4321")).to eq true
   end
+  it "checks whether an expression contains at least one lowercase character" do
+    expect(check("CAMBRIDGE321")).to eq false
+  end
 end
